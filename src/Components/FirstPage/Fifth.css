@@ -1,0 +1,98 @@
+.header{
+    text-align: center;
+    color: rgb(206, 203, 203);
+    font-family: Leckerli One;
+    margin-top: -20px;
+    position: relative;
+    z-index: 99999;
+}
+
+.phaseflex{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(241, 150, 12);
+    font-size: 24px;
+    font-family: Leckerli One;
+}
+.phaseone{
+    margin-left: 10%;
+}
+.phasetwo{
+    margin-right: 10%;
+}
+.imageflex{
+    display: flex;
+    justify-content: space-between;
+}
+.imageone{
+    margin-left: 30%;
+}
+.imagetwo{
+    margin-right: 30%;
+}
+
+.listItemsflex{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.listitem1{
+    margin-left: 8%;
+}
+.listitems2{
+    margin-right: 8%;
+}
+.phaseflextwo{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(241, 150, 12);
+    font-size: 24px;
+    font-family: Leckerli One;
+}
+.phasethree {
+    margin-left: 10%;
+}
+
+.phasefour {
+    margin-right: 10%;
+}
+
+.imageflextwo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagethree {
+    margin-left: 30%;
+}
+
+.imagefour {
+    margin-right: 30%;
+}
+
+.listItemsflextwo {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.listitem3 {
+    margin-left: 8%;
+}
+
+.listitems4 {
+    margin-right: 8%;
+}
+@media screen and (max-width:500px) and (min-width:100px) {
+    .listItemsflextwo {
+            font-size: 10.5px;
+        }
+    .listItemsflex {
+            font-size: 10.5px;
+        }
+}
+    

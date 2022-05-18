@@ -1,0 +1,32 @@
+/*Queries for Firstpage.css and Jsx*/
+
+@media screen and (max-width:600px) and (min-width:350px){
+    .header p {
+            color: rgb(114, 111, 111);
+            font-family: Leckerli One;
+            font-size: 33px;
+            font-weight: bold;
+            line-height: 0.70em;
+            word-spacing: 5px;
+            outline: none;
+            animation: animate 5s linear infinite;
+        }
+}
+
+@media screen and (max-width:900px) and (min-width:601px) {
+    .header p {
+        color: rgb(114, 111, 111);
+        font-family: Leckerli One;
+        font-size: 38px;
+        font-weight: bold;
+        line-height: 0.50em;
+        word-spacing: 5px;
+        outline: none;
+        animation: animate 5s linear infinite;
+    }
+
+        
+}
+
+
+

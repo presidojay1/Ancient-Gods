@@ -1,0 +1,57 @@
+.navheadings h2{
+    color: rgb(231, 227, 227);
+    font-family: Leckerli One;
+    font-weight: bold;
+    font-size: 29px;
+    margin-left: 15px;
+    margin-top: 25px;
+    -webkit-box-reflect: below 0.5px linear-gradient(transparent, #0008);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 10s linear infinite;
+    text-decoration: none;
+}
+
+.navheadings h2:hover {
+    color: rgb(247, 182, 4);
+    outline: none;
+    animation: none;
+
+}
+@keyframes animate {
+
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90.1%,
+    92% {
+        color: white;
+        text-shadow: none;
+    }
+
+    18.1%,
+    20.1%,
+    30%,
+    60%,
+    65%,
+    80.1%,
+    90%,
+    92.1%,
+    100% {
+        color: rgb(245, 237, 237);
+        text-shadow: 0 0 10px grey,
+            0 0 20px rgb(212, 211, 211),
+            0 0 40px rgb(216, 216, 214),
+            0 0 80px rgb(51, 50, 50),
+            0 0 160px rgb(221, 185, 185),
+    }
+}
+.navbartoggler{
+    background-color:rgb(218, 186, 160) !important; 
+    outline: none !important;
+    box-shadow: none !important;
+}

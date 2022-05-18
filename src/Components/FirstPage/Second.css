@@ -1,0 +1,80 @@
+.getonwhistle{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10%;
+    position: relative;
+    
+}
+.whistleimage{
+    position: absolute;
+    top:0;
+    left: 0;  
+    margin-right: 30px;
+    
+}
+.getonwhistle h4{
+    color: rgb(207, 204, 204);
+    font-family: Leckerli One;
+    margin-top: 15px;
+    margin-left: 10px;
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+.Firstcard{
+    display: flex;
+    width: 100%;
+    margin: 0px 30px;
+    padding-top: 5%;
+}
+.cardones{
+    flex-basis: 15%;
+    transition: transform 1s;
+}
+.cardones:hover{
+    transform: scale(1.2);
+}
+.cardtwos{
+    flex-basis: 20%;
+    transition: transform 1s;
+}
+.cardtwos:hover {
+    transform: scale(1.2);
+}
+
+.cardthrees{
+    flex-basis: 20%;
+}
+
+@keyframes animate {
+
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90.1%,
+    92% {
+        color: rgb(233, 227, 227);
+        text-shadow: none;
+    }
+
+    18.1%,
+    20.1%,
+    30%,
+    60%,
+    65%,
+    80.1%,
+    90%,
+    92.1%,
+    100% {
+        color: rgb(44, 44, 44);
+        text-shadow: 0 0 10px rgb(228, 224, 224),
+            0 0 20px rgb(163, 163, 163),
+            0 0 40px rgb(124, 123, 116),
+            0 0 80px rgb(209, 203, 203),
+            0 0 160px rgb(243, 233, 233),
+    }
+}
