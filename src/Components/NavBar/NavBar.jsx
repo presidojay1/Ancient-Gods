@@ -22,7 +22,7 @@ const NavBar = () => {
                 <Nav.Link><h2>About Us</h2></Nav.Link>
                 <Nav.Link><h2>Roadmap</h2></Nav.Link>
                 <Nav.Link><Link style={{ textDecoration: 'none'}} to="/Solana"><h2 className='Limk'>Solona</h2></Link></Nav.Link>
-                <div className="crossdiv">
+                <div style={{ float: 'right'}}  className="crossdiv">
                   <img src={image} alt="cross image" />
                 </div>
               </Nav>

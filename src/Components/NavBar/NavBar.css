@@ -10,8 +10,26 @@
     outline: none;
     animation: animate 10s linear infinite;
     text-decoration: none;
+    float: right;
 }
-
+.navheadings img{
+    margin-left: 6%;
+    position: absolute;
+    margin-top: -1%;
+}
+@media screen and (max-width:1200px) and (min-width:990px) {
+    .navheadings img {
+            margin-left: 1%;
+            position: relative;
+        }
+}
+@media screen and (max-width:989px) and (min-width:201px) {
+.navheadings img {
+        float: right;
+        position: relative;
+        margin-right: -5%;
+    }
+}
 .navheadings h2:hover {
     color: rgb(247, 182, 4);
     outline: none;
