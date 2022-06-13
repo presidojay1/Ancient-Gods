@@ -1,4 +1,4 @@
-.header{
+.header {
     text-align: center;
     color: rgb(206, 203, 203);
     font-family: Leckerli One;
@@ -7,50 +7,59 @@
     z-index: 99999;
 }
 
-.phaseflex{
+.phaseflex {
     display: flex;
     justify-content: space-between;
     color: rgb(241, 150, 12);
     font-size: 24px;
     font-family: Leckerli One;
 }
-.phaseone{
+
+.phaseone {
     margin-left: 10%;
 }
-.phasetwo{
+
+.phasetwo {
     margin-right: 10%;
 }
-.imageflex{
+
+.imageflex {
     display: flex;
     justify-content: space-between;
 }
-.imageone{
+
+.imageone {
     margin-left: 30%;
 }
-.imagetwo{
+
+.imagetwo {
     margin-right: 30%;
 }
 
-.listItemsflex{
+.listItemsflex {
     display: flex;
     justify-content: space-between;
     color: white;
     font-weight: bold;
     font-style: italic;
 }
-.listitem1{
+
+.listitem1 {
     margin-left: 8%;
 }
-.listitems2{
+
+.listitems2 {
     margin-right: 8%;
 }
-.phaseflextwo{
+
+.phaseflextwo {
     display: flex;
     justify-content: space-between;
     color: rgb(241, 150, 12);
     font-size: 24px;
     font-family: Leckerli One;
 }
+
 .phasethree {
     margin-left: 10%;
 }
@@ -87,12 +96,13 @@
 .listitems4 {
     margin-right: 8%;
 }
+
 @media screen and (max-width:500px) and (min-width:100px) {
     .listItemsflextwo {
-            font-size: 10.5px;
-        }
+        font-size: 10.5px;
+    }
+
     .listItemsflex {
-            font-size: 10.5px;
-        }
+        font-size: 10.5px;
+    }
 }
-    

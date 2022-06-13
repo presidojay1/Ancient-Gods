@@ -12,68 +12,70 @@ const Footer = () => {
     <section className="footerbody1">
         <div className="footerflex">
             <div className="footerflexhead">
-                <h4>Meet Our</h4>
-                <h3>Team Members</h3>
+                <h1>Meet Our</h1>
+                <h1>Team Members</h1>
             </div>
-            <div className="footerImage">
-                <img src={TeamCoverImage} width="80%" alt="cover" />
-                <div className="group32">
-                    <img src={verifiedImage} width="75%" alt="cover" />
-                    <div className="profilepic">
-                        <img src={profilepic} width="56%" alt="cover" />
-                    </div>
-                    <div className="text">
-                        <h3>Dave</h3>
-                        <p>Developer</p>
-                    </div>
+            <div className="newflex1">
+                <div className="footerImage">
+                    <img src={TeamCoverImage} width="80%" alt="cover" />
+                    <div className="group32">
+                        <img src={verifiedImage} width="75%" alt="cover" />
+                        <div className="profilepic">
+                            <img src={profilepic} width="56%" alt="cover" />
+                        </div>
+                        <div className="text">
+                            <h3>Dave</h3>
+                            <p>Developer</p>
+                        </div>
+                    </div> 
                 </div>
-                
-            </div>
 
-            <div className="footerImage">
-                <img src={TeamCoverImage} width="80%" alt="cover" />
-                <div className="group32">
-                    <img src={verifiedImage} width="75%" alt="cover" />
-                    <div className="profilepic">
-                        <img src={profilepic2} width="56%" alt="cover" />
-                    </div>
-                    <div className="text">
-                        <h3>Dave</h3>
-                        <p>Developer</p>
-                    </div>
-                </div>
-            </div>
-
-            <div className="footerImage">
-                <img src={TeamCoverImage} width="80%" alt="cover" />
-                <div className="group32">
-                    <img src={verifiedImage} width="75%" alt="cover" />
-                    <div className="profilepic">
-                        <img src={profilepic2} width="56%" alt="cover" />
-                    </div>
-                    <div className="text">
-                        <h3>Dave</h3>
-                        <p>Developer</p>
-                    </div>
-                </div>
-                
-            </div>
-
-
-            <div className="footerImage">
-                <img src={TeamCoverImage} width="80%" alt="cover" />
-                <div className="group32">
-                    <img src={verifiedImage} width="75%" alt="cover" />
-                    <div className="profilepic">
-                        <img src={profilepic} width="56%" alt="cover" />
-                    </div>
-                    <div className="text">
-                        <h3>Dave</h3>
-                        <p>Developer</p>
+                <div className="footerImage">
+                    <img src={TeamCoverImage} width="80%" alt="cover" />
+                    <div className="group32">
+                        <img src={verifiedImage} width="75%" alt="cover" />
+                        <div className="profilepic">
+                            <img src={profilepic2} width="56%" alt="cover" />
+                        </div>
+                        <div className="text">
+                            <h3>Dave</h3>
+                            <p>Developer</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            
+
+            <div className="newflex1">
+                <div className="footerImage">
+                    <img src={TeamCoverImage} width="80%" alt="cover" />
+                    <div className="group32">
+                        <img src={verifiedImage} width="75%" alt="cover" />
+                        <div className="profilepic">
+                            <img src={profilepic} width="56%" alt="cover" />
+                        </div>
+                        <div className="text">
+                            <h3>Dave</h3>
+                            <p>Developer</p>
+                        </div>
+                    </div> 
+                </div>
+
+                <div className="footerImage">
+                    <img src={TeamCoverImage} width="80%" alt="cover" />
+                    <div className="group32">
+                        <img src={verifiedImage} width="75%" alt="cover" />
+                        <div className="profilepic">
+                            <img src={profilepic2} width="56%" alt="cover" />
+                        </div>
+                        <div className="text">
+                            <h3>Dave</h3>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
 
         <div className="footerbottom">
             <div className="footerjoin">

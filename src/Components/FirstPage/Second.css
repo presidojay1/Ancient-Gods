@@ -1,22 +1,29 @@
+section::-webkit-scrollbar{
+    display: none;
+}
+section{
+    overflow: scroll;
+}
 .getonwhistle{
     float: right;
     margin-top: 20px;
     margin-right: 10%;
-    position: relative;
+    position: sticky !important;
+    left: 50%;
     
 }
 .whistleimage{
-    position: absolute;
-    top:0;
-    left: 0;  
+    position: sticky !important;
+    width: 75% !important; 
     margin-right: 30px;
-    
+
 }
 .getonwhistle h4{
     color: rgb(207, 204, 204);
     font-family: Leckerli One;
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 30px;
+    position: sticky !important;
+    top: 15%;
     line-height: 0.70em;
     outline: none;
     animation: animate 5s linear infinite;
@@ -26,9 +33,10 @@
     width: 100%;
     margin: 0px 30px;
     padding-top: 5%;
+    margin-bottom: 30px;
 }
 .cardones{
-    flex-basis: 15%;
+    flex-basis: 20%;
     transition: transform 1s;
 }
 .cardones:hover{
@@ -44,6 +52,10 @@
 
 .cardthrees{
     flex-basis: 20%;
+    transition: transform 1s;
+}
+.cardthrees:hover {
+    transform: scale(1.2);
 }
 
 @keyframes animate {

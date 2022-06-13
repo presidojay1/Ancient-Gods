@@ -8,7 +8,6 @@ import '../query/Queries.css'
 const NavBar = () => {
   return (
   <>
-   
           <Navbar collapseOnSelect expand="lg">
           <Container>
               <div className="crossdiv">

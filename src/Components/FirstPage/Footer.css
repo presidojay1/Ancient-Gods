@@ -1,91 +1,105 @@
-.footerflex{
+.footerflex {
     display: flex;
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
 }
-.footerflexhead{
+
+.newflex1 {
+    display: flex;
+}
+
+.footerflexhead {
     color: white;
     margin-right: 20px;
     font-weight: bold;
 
 }
-.footerflexhead{
-    margin-top: 10%;
 
+.footerflexhead {
+    margin-top: 10%;
 }
-.footerImage{
+
+.footerImage {
     margin-top: 5%;
-    position: relative;    
+    position: relative;
 }
-.group32{
+
+.group32 {
     position: absolute;
-    background:transparent;
+    background: transparent;
     left: 12%;
     top: 10%;
 }
 
-.footerImages{
+.footerImages {
     display: flex;
 }
 
-.footerbottom{
+.footerbottom {
     position: absolute;
     margin-top: 10%;
     margin-left: 30px;
     margin-right: 20px;
 }
-.profilepic{
+
+.profilepic {
     position: absolute;
     top: -4%;
     left: 12%;
 }
-.text{
+
+.text {
     margin-left: 17%;
     color: white;
     font-weight: bold;
     bottom: -110%;
     position: absolute;
 }
-.footerjoin{
-        color: rgb(114, 111, 111);
-        font-family: Leckerli One;
-        font-size: 43px;
-        font-weight: bold;
-        line-height: 0.70em;
-        outline: none;
-        animation: animate 9s linear infinite;
+
+.footerjoin {
+    color: rgb(114, 111, 111);
+    font-family: Leckerli One;
+    font-size: 43px;
+    font-weight: bold;
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 9s linear infinite;
 }
+
 .footerjoin:hover {
     color: rgb(230, 141, 7);
     animation: none;
-    cursor: pointer;  
+    cursor: pointer;
 }
-.footerpara{
+
+.footerpara {
     width: 50%;
     color: white;
     font-style: italic;
     font-size: 20px;
     text-align: center;
 }
+
 /*Media Query for the boxes with names and Roles*/
 @media screen and (max-width:399px) and (min-width:350px) {
     .text {
-            margin-left: 8%;
-            color: white;
-            font-size: 5px;
-            font-weight: bold;
-            bottom: -95%;
-            position: absolute;
-        }
-        .text h3 {
-            font-size: 6px;
-            position: absolute;
-            top: -25%;
-        }
+        margin-left: 8%;
+        color: white;
+        font-size: 5px;
+        font-weight: bold;
+        bottom: -95%;
+        position: absolute;
+    }
 
+    .text h3 {
+        font-size: 6px;
+        position: absolute;
+        top: -25%;
+    }
 }
-@media screen and (max-width:349px) and (min-width:290px) {
+
+/* @media screen and (max-width:349px) and (min-width:290px) {
     .group32 {
             position: absolute;
             background: transparent;
@@ -106,33 +120,244 @@
         position: absolute;
         top: -25% ;
     }
+} */
+@media screen and (max-width:359px) and (min-width:300px) {
+
+    .group32 {
+        left: 5%;
+        top: 5%;
+    }
+
+    .text p {
+
+        font-size: 12px;
+        top: 0%;
+        padding-top: 20px;
+        margin-top: -20%;
+        font-style: italic;
+        position: absolute;
+    }
+
+    .text {
+        top: 125%;
+    }
+
+    .text h3 {
+        font-size: 15px;
+
+        position: relative;
+        text-align: center;
+        margin-top: -20%;
+    }
+
+    .footerflex {
+        display: inline-block;
+        margin-left: 15%;
+    }
+
+    .footerflexhead {
+        margin-right: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:459px) and (min-width:360px) {
+
+    .newflex1 {
+        display: flex;
+    }
+
+    .group32 {
+        left: 5%;
+        top: 2%;
+    }
+
+    .text {
+        right: 45%;
+    }
+
+    .text p {
+        margin-left: 10%;
+        font-size: 12px;
+        margin-top: 20%;
+        padding-bottom: 65%;
+        top: 0%;
+        font-style: italic;
+        position: relative;
+    }
+
+    .text h3 {
+        font-size: 20px;
+        margin-top: -30%;
+        position: relative;
+        text-align: center;
+
+    }
+
+    .footerflex {
+        display: inline-block;
+        margin-left: 14%;
+        margin-bottom: 20%;
+    }
+
+    .footerflexhead {
+        margin-right: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:519px) and (min-width:460px) {
+
+    .group32 {
+        left: 7%;
+        top: 2%;
+    }
+
+    .text {
+        right: 45%;
+    }
+
+    .text p {
+        margin-left: 10%;
+        font-size: 12px;
+        margin-top: 20%;
+        padding-bottom: 65%;
+        top: 0%;
+        font-style: italic;
+        position: relative;
+    }
+
+    .text h3 {
+        font-size: 20px;
+        margin-top: -20%;
+        position: relative;
+        text-align: center;
+
+    }
+
+    .footerflex {
+        display: inline-block;
+        margin-left: 10%;
+        margin-left: 20%;
+    }
+
+    .footerflexhead {
+        margin-right: 10px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:600px) and (min-width:520px) {
+
+    .group32 {
+        left: 8%;
+        top: 8%;
+    }
+
+    .text {
+        right: 45%;
+    }
+
+    .text p {
+        margin-left: 10%;
+        font-size: 12px;
+        margin-top: 20%;
+        padding-bottom: 75%;
+        top: 0%;
+        font-style: italic;
+        position: relative;
+    }
+
+    .text h3 {
+        font-size: 20px;
+        margin-top: -40%;
+        position: relative;
+        text-align: center;
+
+    }
+
+    .footerflex {
+        display: inline-block;
+        margin-left: 10%;
+        margin-left: 20%;
+    }
+
+    .footerflexhead {
+        margin-right: 10px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:900px) and (min-width:600px) {
+
+    .group32 {
+        left: 12%;
+        top: 8%;
+    }
+
+    .text {
+        right: 45%;
+    }
+
+    .text p {
+        margin-left: 10%;
+        font-size: 15px;
+        margin-top: 20%;
+        padding-bottom: 15%;
+        top: 0%;
+        font-style: italic;
+        position: relative;
+    }
+
+    .text h3 {
+        font-size: 25px;
+        margin-top: -10%;
+        position: relative;
+        text-align: center;
+
+    }
+
+    .footerflex {
+        display: inline-block;
+        margin-left: 10%;
+        margin-left: 20%;
+    }
+
+    .footerflexhead {
+        margin-right: 10px;
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width:1150px) and (min-width:880px) {
     .group32 {
-            position: absolute;
-            background: transparent;
-            left: 10%;
-        }
+        position: absolute;
+        background: transparent;
+        left: 10%;
+    }
+
     .text {
-            margin-left: 15%;
-            color: white;
-            font-size: 15px;
-            font-weight: bold;
-            bottom: -75%;
-            position: absolute;
-        }
-    
-        .text h3 {
-            font-size: 20px;
-            font-weight: bold;
-            position: absolute;
-            top: -63%;
-        }
+        margin-left: 15%;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        bottom: -75%;
+        position: absolute;
+    }
+
+    .text h3 {
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        top: -63%;
+    }
 }
 
-@media screen and (max-width:900px) and (min-width:601px) {
 
+/* @media screen and (max-width:900px) and (min-width:601px) {
     .group32 {
             position: absolute;
             background: transparent;
@@ -152,8 +377,6 @@
             position: absolute;
             top: -43%;
         }
-
-
 }
 @media screen and (max-width:500px) and (min-width:400px) {
 .group32 {
@@ -170,7 +393,6 @@
             bottom: -70%;
             position: absolute;
         }
-
     
         .text h3 {
             font-size: 10px;
@@ -199,23 +421,28 @@
             position: absolute;
             top: -40%;
         }
-}
+} */
 
 /*End of the media query*/
 
 /*Media query for headers and text*/
 @media screen and (max-width:600px) and (min-width:290px) {
-    .footerflexhead h4{
-            font-size: 15px;
+    .footerflexhead h4 {
+        font-size: 20px;
     }
-    .footerflexhead h3{
-            font-size: 15px;
+
+    .footerflexhead h3 {
+        font-size: 20px;
     }
-    .footerjoin h2{
-        font-size: 15px;
+
+    .footerjoin h2 {
+        font-size: 22px;
     }
-    .footerpara p{
-        font-size: 13px;
+
+    .footerpara p {
+        font-size: 16px;
+        width: 150%;
+        margin-left: 20%;
     }
 }
 

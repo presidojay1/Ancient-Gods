@@ -1,13 +1,14 @@
-.toppage{
+.toppage {
     background-image: url('../images/bg2.png');
-    width: 100%;   
+    width: 100%;
     min-height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
-  
+
 }
-.toppage h1{
+
+.toppage h1 {
     color: rgb(121, 112, 112);
     font-family: Leckerli One;
     padding-bottom: 20px;
@@ -25,32 +26,36 @@
     cursor: pointer;
 }
 
-.Firstcards{
+.Firstcards {
     display: flex;
     margin-top: 10%;
-   margin-left: 15%;
-   margin-right: 20px;
+    margin-left: 15%;
+    margin-right: 20px;
 }
-.cardone{
+
+.cardone {
     flex-basis: 25%;
-    background: transparent;  
+    background: transparent;
     margin-right: -2%;
     position: relative;
 }
-.cardtwo{
+
+.cardtwo {
     flex-basis: 25%;
     background: transparent;
     margin-top: -3%;
     margin-right: -1%;
     position: relative;
 }
-.cardthree{
-flex-basis: 25%;
+
+.cardthree {
+    flex-basis: 25%;
     background: transparent;
     margin-top: -7%;
     position: relative;
 }
-.header p{
+
+.header p {
     color: rgb(114, 111, 111);
     font-family: Leckerli One;
     font-size: 43px;
@@ -59,21 +64,35 @@ flex-basis: 25%;
     outline: none;
     animation: animate 9s linear infinite;
 }
-.insideImage{
+
+.insideImage {
     top: 0;
     left: 10%;
     position: absolute;
 }
+
 /*Styling of the background for the second div. Rest in second.css*/
 
-.secondbody{
+.secondbody {
     background-image: url('../images/Group 20.png');
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:600px) and (min-width:100px) {
+    .secondbody {
+        background-image: url('../images/Group 20.png');
         width: 100%;
-        min-height: 100vh;
+        min-height: 55vh;
         background-position: center;
         background-size: cover;
         position: relative;
         overflow-x: hidden;
+    }
 }
 
 /*Styling of the background for the Third div. Rest in third.css*/
@@ -87,6 +106,19 @@ flex-basis: 25%;
     position: relative;
     overflow-x: hidden;
 }
+
+@media screen and (max-width:500px) and (min-width:100px) {
+    .Thirdbody {
+        background-image: url('../images/background 3.png');
+        width: 100%;
+        min-height: 60vh;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        overflow-x: hidden;
+    }
+}
+
 /*Styling of the background for the Fourth div. Rest in Fourth.css*/
 .Fourthbody {
     background-image: url('../images/Group 27.png');
@@ -98,15 +130,27 @@ flex-basis: 25%;
     overflow-x: hidden;
 }
 
-@media screen and (max-width:600px) and (min-width:100px) {
+@media screen and (max-width:500px) and (min-width:100px) {
     .Fourthbody {
         background-image: url('../images/Group 27.png');
-            width: 100%;
-            min-height: 70vh;
-            background-position: center;
-            background-size: cover;
-            position: relative;
-            overflow-x: hidden;
+        width: 100%;
+        min-height: 54vh;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:501px) {
+    .Fourthbody {
+        background-image: url('../images/Group 27.png');
+        width: 100%;
+        min-height: 59vh;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        overflow-x: hidden;
     }
 }
 
@@ -116,7 +160,7 @@ flex-basis: 25%;
     width: 100%;
     min-height: 100vh;
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
 
@@ -124,11 +168,30 @@ flex-basis: 25%;
 .Footer {
     background-image: url('../images/Group 25.png');
     width: 100%;
-    min-height: 120vh;
+    min-height: 100vh;
     background-position: center;
     background-size: cover;
 }
 
+@media screen and (max-width:600px) and (min-width:400px) {
+    .Footer {
+        background-image: url('../images/Group 25.png');
+        width: 100%;
+        min-height: 175vh;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:300px) {
+    .Footer {
+        background-image: url('../images/Group 25.png');
+        width: 100%;
+        min-height: 155vh;
+        background-position: center;
+        background-size: cover;
+    }
+}
 
 @keyframes animate {
 

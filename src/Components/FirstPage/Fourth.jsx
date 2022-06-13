@@ -23,7 +23,7 @@ const Fourth = () => {
           <div className="cardtw">
             <img src={BrightImage} width="85%" alt="cover" />
             <h5>Resale & Royalty</h5>
-            <p>NFT'S empower total straightforwardness in the item deal process, permitting the makers and purchasers to follow</p>
+            <p>NFT'S empowerr total straightforwardness in the item deal process, permitting the makers and purchasers to follow</p>
           </div>
 
           <div className="cardthr">
